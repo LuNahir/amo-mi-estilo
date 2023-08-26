@@ -734,18 +734,15 @@ form#commentform textarea {
 		}
 
 		#footer i{
-			padding: 1em;
+			padding: 0em 1em;
 			font-size: 2.2em;
 			color: #f0ebf7;
+			margin-top: 1em;
 		}
 
 		#footer .bi-telephone-fill{
 		font-size: 0.9em;
 		padding: 3px;
-		}
-
-		#footer img{
-			height: 1em;
 		}
 
 /* Box */
