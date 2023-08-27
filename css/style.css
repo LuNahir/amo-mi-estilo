@@ -374,6 +374,7 @@ form#commentform textarea {
 			position: relative;
 			padding: 0.5em 0em 0em 6em;
 			border-top: solid 1px rgba(255, 255, 255, 0.2);
+			margin-bottom: 2em;
 		}
 
 		ul.style > :first-child {
@@ -753,11 +754,12 @@ form#commentform textarea {
 	}
 
 
-/* container */
-
-	.container{
-		padding-bottom: 2em;
+	div.servicios{
+		display: flex;
+    	flex-direction: column;
+    	align-items: center;
 	}
+
 
 /* Box */
 
@@ -766,6 +768,7 @@ form#commentform textarea {
 		background: #FFF;
 		text-align: center;
 		border-radius: 0px 0px 6px 6px;
+		margin-bottom: 2em;
 	}
 
 	.box h1{
@@ -779,6 +782,16 @@ form#commentform textarea {
 	.box h2{
 		font-size: 1.2em;
 		text-transform: capitalize;
+		font-weight: 400;
+	}
+
+	div.serv h1{
+		font-size: 3.5em;
+	}
+
+	div.serv h2{
+		font-size: 1.7em;
+		padding-bottom: 0.5em;
 	}
 
     .google-maps {
@@ -794,3 +807,12 @@ form#commentform textarea {
         width: 100% !important;
         height: 100% !important;
     }
+
+	.row{
+		display: flex;
+
+	}
+
+	.\36 u{
+		width: 60%;
+	}
