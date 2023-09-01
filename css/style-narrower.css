@@ -215,7 +215,7 @@
 
 		ul.style li {
 			position: relative;
-			padding: 3em 0em 3em 6em;
+			padding: 3em 0em 0em 6em;
 			border-top: solid 1px rgba(255, 255, 255, 0.2);
 		}
 
@@ -273,13 +273,14 @@
 	#banner p {
 			font-size: 2.5em;
 			line-height: 1.75em;
-			padding-bottom: 2rem;
+			padding: 1em 0em 1em 0em;
+			line-height: 1em;
 	}
 
 /* Main */
 
 	#main {
-		margin-top: 4em;
+		margin-top: 0em;
 	}
 
 	.box h1{

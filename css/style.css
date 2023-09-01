@@ -675,6 +675,7 @@ form#commentform textarea {
 	#banner p{
 		font-family: 'Zing', cursive;
 		font-size: 3em;
+		padding-bottom: 0.5em;
 	}
 
 /* main */

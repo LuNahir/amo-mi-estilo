@@ -35,6 +35,10 @@
 			border-top: solid 1px rgba(255, 255, 255, 0.2) !important;
 		}
 
+		ul.style li:before{
+			top: 1.3em;
+		}
+
 /* Wrapper */
 
 	.wrapper.style2 {
@@ -50,7 +54,7 @@
 	#banner p{
 		font-size: 2em;
 		line-height: 1em;
-		padding-bottom: 2rem;
+		padding: 1em 0em 1em 0em;
 	}
 
 	#banner h1{
