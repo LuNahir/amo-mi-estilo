@@ -628,18 +628,18 @@ form#commentform textarea {
 	
 	#nav ul li {
 		display: inline-block;
-		padding: 1.25em 1.25em;
+		padding: 0.2em 1.25em;
 		
 	}
 
 	#nav ul li a {
 		font-family: 'Lato',sans-serif;
 		font-weight: 600;
-		-moz-transition: color 0.35s ease-in-out;
-		-webkit-transition: color 0.35s ease-in-out;
-		-o-transition: color 0.35s ease-in-out;
-		-ms-transition: color 0.35s ease-in-out;
-		transition: color 0.35s ease-in-out;
+		-moz-transition: color 0.2s ease-in-out;
+		-webkit-transition: color 0.2s ease-in-out;
+		-o-transition: color 0.2s ease-in-out;
+		-ms-transition: color 0.2s ease-in-out;
+		transition: color 0.2s ease-in-out;
 		display: inline-block;
 		color: #f0ebf7;
 		text-transform: uppercase;
@@ -650,6 +650,37 @@ form#commentform textarea {
 	#nav ul li a:hover {
 		color: #dbd2e5;
 	}
+
+		.submenu ul.show {
+			display: block;
+			position: absolute;
+			background-color: #333;
+			z-index: 1;
+
+		}
+	
+		.submenu ul li {
+			display: block;
+			padding: 10px;
+			color: #fff;
+
+		}
+	
+		.li-submenu{
+			color: #fff;
+			font-family: 'Lato',sans-serif;
+			padding: 0em 1.2em 0em 1.2em;
+			font-size: 1em;
+			text-transform: uppercase;
+			font-weight: 600;
+			text-decoration: none;
+			display: block;
+		}
+
+		.li-submenu:hover{
+			color: #dbd2e5;
+			transition: color 0.2s ease-in-out;
+		}
 
 
 /* Banner */
@@ -815,4 +846,8 @@ form#commentform textarea {
         width: 100% !important;
         height: 100% !important;
     }
+
+
+
+
 
