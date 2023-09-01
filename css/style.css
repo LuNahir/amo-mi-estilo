@@ -579,9 +579,13 @@ form#commentform textarea {
 		background: url(../images/bg.jpg) no-repeat center top;
 		background-size: cover;
 		background-attachment: fixed;
+		backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
+		transform: translateZ(0);
 		-webkit-transform: translateZ(0);
 	}
+
+
 
 	.wrapper.style2 {
 		padding: 6em 0;
@@ -697,6 +701,7 @@ form#commentform textarea {
 		background: #FFF;
 		padding: 6em 4em 6em 4em;
 		border-radius: 6px;
+		margin-bottom: 2em;
 	}
 
 /* Sidebar */
@@ -794,6 +799,8 @@ form#commentform textarea {
 		padding-bottom: 0.5em;
 	}
 
+
+
     .google-maps {
         position: relative;
         padding-bottom: 75%;
@@ -808,11 +815,3 @@ form#commentform textarea {
         height: 100% !important;
     }
 
-	.row{
-		display: flex;
-
-	}
-
-	.\36 u{
-		width: 60%;
-	}
