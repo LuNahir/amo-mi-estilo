@@ -734,8 +734,83 @@ form#commentform textarea {
 		padding: 6em 4em 6em 4em;
 		border-radius: 6px;
 		margin-bottom: 2em;
+		scroll-behavior: smooth;
 	}
 
+	#page h1{
+		font-family: 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		text-align: center;
+		color: #555555;
+	}
+	
+	#page h2{
+		font-family: 'Zing';
+		text-transform: lowercase;
+		color: #6c2c68;
+		text-align: center;
+		font-size: 3em;
+		margin: 0em 0em 1em 0em;
+	}
+
+	#page h3{
+		font-family: 'Lato', sans-serif;
+		color: #8962a3;
+		text-transform: capitalize;
+		font-size: 1.6em;
+		font-weight: 500;
+		margin-top: 1em;
+		padding-bottom: 0.5em;
+	}
+
+	#page h4{
+		font-family: 'Lato', sans-serif;
+		color: #8962a3;
+		text-transform: capitalize;
+		font-size: 1.2em;
+		font-weight: 500;
+		margin-top: 1em;
+		padding-bottom: 0.5em;
+	}
+
+
+/* content */
+
+/* 	#content .tratamientos h3{
+		font-family: 'Lato', sans-serif;
+		color: #8962a3;
+		text-transform: capitalize;
+		font-size: 1.6em;
+		font-weight: 500;
+		margin-top: 1em;
+		padding-bottom: 0.5em;
+	} */
+
+	#content .tratamientos p{
+		line-height: 1.5em;
+		font-size: 1.2em;
+	}
+
+	#content .default {
+		margin: 0;
+		padding: 0;
+	}
+
+	#content .default li a{
+		font-size: 1.2em;
+		text-transform: capitalize;
+		text-decoration: none;
+		font-weight: 500;
+	}
+
+	#content .default li a:hover{
+		color: #6c2c68;
+		transition: color 0.2s ease-in-out
+	}
+
+	
 /* Sidebar */
 
 	#sidebar .major {
