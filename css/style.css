@@ -778,25 +778,24 @@ form#commentform textarea {
 
 /* content */
 
-/* 	#content .tratamientos h3{
-		font-family: 'Lato', sans-serif;
-		color: #8962a3;
-		text-transform: capitalize;
-		font-size: 1.6em;
-		font-weight: 500;
-		margin-top: 1em;
-		padding-bottom: 0.5em;
-	} */
-
-	#content .tratamientos p{
+	#content p{
 		line-height: 1.5em;
 		font-size: 1.2em;
+	}
+
+	#content .tratamientos ul{
+			list-style-image: url(img/isotipo.svg);
+			list-style-position: inside;
+			font-size: 1.1em;
+			line-height: 2em;
 	}
 
 	#content .default {
 		margin: 0;
 		padding: 0;
 	}
+
+	
 
 	#content .default li a{
 		font-size: 1.2em;

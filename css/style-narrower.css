@@ -293,6 +293,35 @@
 
 	#page {
 		padding: 3em 2em;
+		margin-top: 2em;
+	}
+
+	#page h1{
+		padding-top: 1em;
+	}
+
+/* content */
+
+	#content{
+		scroll-behavior: smooth;
+	}
+
+	#content .default li a{
+		font-size: 1.5em;
+		text-transform: capitalize;
+		text-decoration: none;
+		font-weight: 500;
+
+		scroll-margin-top: 2em;
+	}
+
+	#content .default li a:hover{
+		color: #6c2c68;
+		transition: color 0.2s ease-in-out
+	}
+
+	#content .tratamientos h3{
+		scroll-margin-top: 5em;
 	}
 
 /* Footer */
