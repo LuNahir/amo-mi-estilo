@@ -21,7 +21,12 @@
 /* Basic */
 
 	body {
-		background: #C69FCE;
+		background: url(../images/bg.jpg) no-repeat center top;
+		background-size: cover;
+		backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		transform: translateZ(0);
+		-webkit-transform: translateZ(0);
 	}
 
 	body, span, input, select, textarea {
@@ -575,7 +580,7 @@ form#commentform textarea {
 
 /* Wrapper */
 
-	.wrapper.style1 {
+	/* .wrapper.style1 {
 		background: url(../images/bg.jpg) no-repeat center top;
 		background-size: cover;
 		background-attachment: fixed;
@@ -583,7 +588,7 @@ form#commentform textarea {
 		-webkit-backface-visibility: hidden;
 		transform: translateZ(0);
 		-webkit-transform: translateZ(0);
-	}
+	} */
 
 
 
@@ -733,8 +738,12 @@ form#commentform textarea {
 		background: #FFF;
 		padding: 6em 4em 6em 4em;
 		border-radius: 6px;
-		margin-bottom: 2em;
 		scroll-behavior: smooth;
+		margin-bottom: 2em;
+	}
+
+	#page img{
+		height: 5em;
 	}
 
 	#page h1{
@@ -829,7 +838,6 @@ form#commentform textarea {
 		text-align: center;
 		display: block;
 		padding: 3em 0em 1em 0em;
-
 	}
 
 	#footer h1{
